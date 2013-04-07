@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="binary/graphlab-main.jar"/>
+	<classpathentry kind="lib" path="binary/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="binary/lib/commons-pool-1.5.6.jar"/>
+	<classpathentry kind="lib" path="binary/lib/ganymed.jar"/>
+	<classpathentry kind="lib" path="binary/lib/graph.jar"/>
+	<classpathentry kind="lib" path="binary/lib/graphlab-library.jar"/>
+	<classpathentry kind="lib" path="binary/lib/graphlab-ui-library.jar"/>
+	<classpathentry kind="lib" path="binary/lib/gson-2.1.jar"/>
+	<classpathentry kind="lib" path="binary/lib/Jama-1.0.1.jar"/>
+	<classpathentry kind="lib" path="binary/lib/javabuilder.jar"/>
+	<classpathentry kind="lib" path="binary/lib/jedis-2.0.0.jar"/>
+	<classpathentry kind="lib" path="binary/lib/jmatlink.jar"/>
+	<classpathentry kind="lib" path="binary/lib/matlab.jar"/>
+	<classpathentry kind="lib" path="binary/lib/rjc_redis.jar"/>
+	<classpathentry kind="lib" path="binary/plugins/algorithmanimator.jar"/>
+	<classpathentry kind="lib" path="binary/plugins/automaticupdator.jar"/>
+	<classpathentry kind="lib" path="binary/plugins/commandline.jar"/>
+	<classpathentry kind="lib" path="binary/plugins/commonplugin.jar"/>
+	<classpathentry kind="lib" path="binary/plugins/connector.jar"/>
+	<classpathentry kind="lib" path="binary/plugins/graphgenerator.jar"/>
+	<classpathentry kind="lib" path="binary/plugins/main.jar"/>
+	<classpathentry kind="lib" path="binary/plugins/reports.jar"/>
+	<classpathentry kind="lib" path="binary/plugins/visualization.jar"/>
+	<classpathentry kind="lib" path="developer_resources/GraphlabAPI.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="out/production/GraphLab"/>
+</classpath>
