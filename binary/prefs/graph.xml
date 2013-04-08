@@ -276,8 +276,8 @@
       </node>
       <node name="graphlab.extensions.generators.RandomGenerator">
         <map>
-          <entry key="numOfEdges" value="6"/>
-          <entry key="numOfVertices" value="4"/>
+          <entry key="numOfEdges" value="10"/>
+          <entry key="numOfVertices" value="15"/>
           <entry key="object" value="graphlab.extensions.generators.RandomGenerator"/>
         </map>
       </node>
@@ -291,7 +291,7 @@
       </node>
       <node name="graphlab.extensions.generators.StarGenerator">
         <map>
-          <entry key="n" value="10"/>
+          <entry key="n" value="5"/>
           <entry key="object" value="graphlab.extensions.generators.StarGenerator"/>
         </map>
       </node>
@@ -299,7 +299,7 @@
         <map>
           <entry key="degree" value="3"/>
           <entry key="depth" value="3"/>
-          <entry key="m" value="java.lang.String #$%# Backward #$%# java.lang.String #$%# UpDown #$%# java.lang.String #$%# Circular #$%# java.lang.String #$%# Circular"/>
+          <entry key="m" value="java.lang.String #$%# Backward #$%# java.lang.String #$%# UpDown #$%# java.lang.String #$%# Circular #$%# java.lang.String #$%# Backward"/>
           <entry key="object" value="graphlab.extensions.generators.TreeGenerator"/>
         </map>
       </node>
@@ -475,10 +475,10 @@
       <node name="graphlab.graph.graph.FastRenderer">
         <map>
           <entry key="defaultBorderStroke" value="simple"/>
-          <entry key="defaultEdgeColor" value="java.awt.Color[r=213,g=210,b=210]"/>
-          <entry key="defaultShapeDimension" value="java.awt.Dimension[width=20,height=20]"/>
+          <entry key="defaultEdgeColor" value="java.awt.Color[r=64,g=64,b=64]"/>
+          <entry key="defaultShapeDimension" value="java.awt.Dimension[width=40,height=40]"/>
           <entry key="defaultStroke" value="solid"/>
-          <entry key="defaultVertexColor" value="java.awt.Color[r=242,g=159,b=15]"/>
+          <entry key="defaultVertexColor" value="java.awt.Color[r=184,g=185,b=255]"/>
           <entry key="defaultVertexRadius" value="10"/>
           <entry key="defaultVertexShape" value="Oval"/>
           <entry key="object" value="graphlab.graph.graph.FastRenderer"/>
