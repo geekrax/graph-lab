@@ -57,17 +57,22 @@ public class EdgeColoring extends GraphAlgorithm implements AlgorithmExtension {
         		for (Edge neighbour : neighbours)
         		{	
         			highlightMe(neighbour,true);
+        			currentEdge.setColor(i);
+        			
         			EventUtils.algorithmStep(this, "Comparing neighbour : " + neighbour.source.getId() + " -> " + neighbour.target.getId());
         			l("Comparing neighbour : " + neighbour.source.getId() + " -> " + neighbour.target.getId());
+        			
         			if(neighbour.getColor() == i)
         			{
         				isAvailable = false;
         				highlightMe(neighbour,false);
+        				currentEdge.setColor(0);
         				break;
         			}
         			else
         				isAvailable=true;
-
+        			currentEdge.setColor(0);
+        			
         			highlightMe(neighbour,false);
         		}
         		if(isAvailable){
@@ -84,6 +89,9 @@ public class EdgeColoring extends GraphAlgorithm implements AlgorithmExtension {
         	}
         	
         	currentEdge.setColor(Collections.min(availableColors));
+        	currentEdge.setWeight(Collections.min(availableColors));
+        	currentEdge.setShowWeight(true);
+        	
         	availableColors.removeAllElements();
         	
 

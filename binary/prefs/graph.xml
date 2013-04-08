@@ -476,7 +476,7 @@
         <map>
           <entry key="defaultBorderStroke" value="simple"/>
           <entry key="defaultEdgeColor" value="java.awt.Color[r=64,g=64,b=64]"/>
-          <entry key="defaultShapeDimension" value="java.awt.Dimension[width=40,height=40]"/>
+          <entry key="defaultShapeDimension" value="java.awt.Dimension[width=20,height=20]"/>
           <entry key="defaultStroke" value="solid"/>
           <entry key="defaultVertexColor" value="java.awt.Color[r=184,g=185,b=255]"/>
           <entry key="defaultVertexRadius" value="10"/>

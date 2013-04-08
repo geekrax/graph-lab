@@ -38,7 +38,7 @@ public class Init implements PluginInterface, StorableOnExit {
         GHTMLPageComponent pc = new GHTMLPageComponent(blackboard);
         try {
             pc.setPage(new File("doc/welcome_page.html").toURL());
-            gtgp.jtp.addTab("Welcome!", pc);
+            //gtgp.jtp.addTab("Welcome!", pc);
         } catch (MalformedURLException e) {
             ExceptionHandler.catchException(e);
         }
