@@ -47,7 +47,7 @@ public class EdgeColoring extends GraphAlgorithm implements AlgorithmExtension {
         	EventUtils.algorithmStep(this, "Current Edge : " + currentEdge.source.getId() + " -> "+ currentEdge.target.getId());
             boolean isAvailable = true;
         	Vector<Edge> neighbours = new Vector<Edge>();
-        	neighbours = this.getNeighbours(g, currentEdge);
+        	neighbours = this.getSourceNeighbours(g, currentEdge);
         	
         	
         	for(int i = 1; i<= maxcolor; i++)
@@ -127,23 +127,14 @@ public class EdgeColoring extends GraphAlgorithm implements AlgorithmExtension {
 		}
         return max;
     }
-    private Vector<Edge> getNeighbours(GraphModel g, Edge e){
+    private Vector<Edge> getSourceNeighbours(GraphModel g, Edge e){
     	Vector<Edge> result = new Vector<Edge>();
     	for(Edge sourceEdge : g.edges(e.source))
     		if(!result.contains(sourceEdge) & !e.getId().equals(sourceEdge.getId()))
     			result.add(sourceEdge);
-    	for(Edge destEdge : g.edges(e.target))
-    		if(!result.contains(destEdge) & !e.getId().equals(destEdge.getId())) 
-    			result.add(destEdge);
     	return result;
     }
     
-    private void edgeColoring(GraphModel g){
-    	for(Edge currentEdge: g.edges())
-        {
-        	this.getNeighbours(g, currentEdge);
-        }
-    }
     private void l(String msg){
     	System.out.println("DEBUG : " + msg);
     }
