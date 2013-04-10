@@ -223,7 +223,7 @@
       </node>
       <node name="graphlab.extensions.generators.KmnGenerator">
         <map>
-          <entry key="m" value="3"/>
+          <entry key="m" value="10"/>
           <entry key="n" value="3"/>
           <entry key="object" value="graphlab.extensions.generators.KmnGenerator"/>
         </map>
